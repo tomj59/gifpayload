@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Image IS data</title>
+	<script src="js/gifpayload.js"></script>
+</head>
+<body
+
+<div id="loadDiv">loading...</div>
+
+<script>
+
+// Example of overwriting process command
+GifPayload.prototype.process = function( data ) {
+	payload = JSON.parse( data );
+	var el = document.getElementById("loadDiv");
+
+	if( payload.name ) {
+		el.innerHTML=payload.name;
+	} else {
+		el.innerHTML="Error..";	
+	}
+	console.log( "Raw: " + data );
+	console.log( "Parsed:" );
+	console.log( payload );
+}
+
+console.log("test gif payload..." );
+let test = new GifPayload("gif.php");
+
+</script>
+</body>
+</html>
