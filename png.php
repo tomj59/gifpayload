@@ -1,0 +1,30 @@
+<?php
+header('Content-Type: image/png');
+
+// A 1x1 png image, in base64
+echo base64_decode('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAErGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS41LjAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgeG1sbnM6ZXhpZj0iaHR0cDovL25zLmFkb2JlLmNvbS9leGlmLzEuMC8iCiAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyIKICAgIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIKICAgIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIKICAgIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIgogICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIKICAgZXhpZjpQaXhlbFhEaW1lbnNpb249IjEiCiAgIGV4aWY6UGl4ZWxZRGltZW5zaW9uPSIxIgogICBleGlmOkNvbG9yU3BhY2U9IjEiCiAgIHRpZmY6SW1hZ2VXaWR0aD0iMSIKICAgdGlmZjpJbWFnZUxlbmd0aD0iMSIKICAgdGlmZjpSZXNvbHV0aW9uVW5pdD0iMiIKICAgdGlmZjpYUmVzb2x1dGlvbj0iNzIvMSIKICAgdGlmZjpZUmVzb2x1dGlvbj0iNzIvMSIKICAgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIKICAgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIgogICB4bXA6TW9kaWZ5RGF0ZT0iMjAyMi0wNS0yMFQxODoxOTo1Ny0wNzowMCIKICAgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMi0wNS0yMFQxODoxOTo1Ny0wNzowMCI+CiAgIDx4bXBNTTpIaXN0b3J5PgogICAgPHJkZjpTZXE+CiAgICAgPHJkZjpsaQogICAgICBzdEV2dDphY3Rpb249InByb2R1Y2VkIgogICAgICBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZmZpbml0eSBQaG90byAxLjEwLjUiCiAgICAgIHN0RXZ0OndoZW49IjIwMjItMDUtMjBUMTg6MTk6NTctMDc6MDAiLz4KICAgIDwvcmRmOlNlcT4KICAgPC94bXBNTTpIaXN0b3J5PgogIDwvcmRmOkRlc2NyaXB0aW9uPgogPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KPD94cGFja2V0IGVuZD0iciI/PoPLtDYAAAGAaUNDUHNSR0IgSUVDNjE5NjYtMi4xAAAokXWRzytEURTHP4aJ/GgUysJi0rBCgxIbZSTUJI1Rfm3e3Jk3o2bG672RZKtsFSU2fi34C9gqa6WIlCxlTWyYnvNmpmaSObd77ud+7zmne88FVzipUlaVH1LpjBkaD3jn5he81a+4aaGCJtCUZYxMTwcpa18PEil21+3UKh/3r9VFY5aCihrhYWWYGeEJ4eBaxnB4V7hZJbSo8LlwlykXFL539Eie3xyO5/nHYTMcGgVXo7A3XsKRElYJMyUsL8eXSq6qwn2cl9TH0rMzsrbLbMMixDgBvEwyxigD9DIkfoBu+uiRHWXy/bn8KVYkV4k3WMdkmTgJMnSJuirVY7LqosdkJFl3+v+3r5be35evXh8A94ttf3RA9Q5kt237+9i2sydQ+QxX6WL+yhEMfoq+XdR8h+DZhIvrohbZg8staH0yNFPLSZUyXboO72fQMA9Nt1C7mO9Z4ZzTRwhvyFfdwP4BdEq8Z+kX3TVnp63pBtEAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAMSURBVAiZY/j//z8ABf4C/ljyaw4AAAAASUVORK5CYII===');
+// 1694 bytes ?
+
+
+// example payload data
+$json = array(
+		"id"	=> "12345",
+		"name"	=> "Tom",
+		"secret"=> "533kr1T"
+	);
+
+
+// Echo the hex encoded string to output
+// ( after the gif image lead-in data )
+echo strToHex( json_encode( $json ) );
+
+// Hex encoding routine
+function strToHex($string){
+    $hex = '';
+    for ($i=0; $i<strlen($string); $i++){
+        $ord = ord($string[$i]);
+        $hexCode = dechex($ord);
+        $hex .= substr('0'.$hexCode, -2);
+    }
+    return strToUpper($hex);
+}
